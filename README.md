@@ -1,8 +1,9 @@
-# AGL Coding Test
+# AGL Coding Test | JSON Data Output
 
 ## How to run the web app
 
 - Prerequisites & Notes:
+    - Developed by Monkolsophearith Prum using PHP
     - Ensure that you have XAMPP installed on your system
     - Tested on Window OS
     
