@@ -6,9 +6,8 @@
 <html lang="en">
 
 <head>
-    <!-- Webpage Title -->
+    <link rel="stylesheet" href="css/styles.css">
     <title>AGL | JSON Output</title>
-
 </head>
 
 <body>
@@ -32,7 +31,7 @@
                             echo <<< END
                                 <h3>$i. Pet's name: $pet->name </h3>
                                 <p>Owner: $pet->owner</p>
-                                <p>Owner's age: $owner->age</p>
+                                <p>Owner's age: $owner->age</p></br>
                             END;
                             $i+=1;
                         }
@@ -46,7 +45,7 @@
                             echo <<< END
                                 <h3>$i. Pet's name: $pet->name </h3>
                                 <p>Owner: $pet->owner</p>
-                                <p>Owner's age: $owner->age</p>
+                                <p>Owner's age: $owner->age</p></br>
                             END;
                             $i+=1;
                         }
